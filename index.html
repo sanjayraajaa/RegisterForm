@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <legend><h4>Registration Form</h4></legend>
+        <table id="formTable">
+            <tr>
+                <td><label>Enter Your Name:</label></td>
+                <td><input id="name" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Select Your Age:</label></td>
+                <td><input id="age" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Select Your Gender:</label></td>
+                <td><input type="radio" name="gender" value="Male"><label for="">Male</label><input type="radio" name="gender" value="Female"><label for="">Female</label></td>
+            </tr>
+            <tr>
+                <td><label for="course">Select Your Course:</label></td>
+                <td><select id="course">
+                    <option value="C++">C++</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td colspan="2"><center><button onclick="Add()" id="save">Save</button></center></td>
+            </tr>
+        </table>
+    </fieldset>
+    <table id="myTable" border="1px" cellpadding="5px" cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Course</th>
+            <th>Delete</th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

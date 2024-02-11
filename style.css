@@ -1,0 +1,63 @@
+#myTable{
+    width: 100%;
+    margin-top: 50px;
+    
+}
+#myTable tr td{
+    text-align: center;
+}
+#formTable tr td{
+    width: 50%;
+    padding: 5px;
+}
+#formTable{
+    width: 100%;
+}
+html{
+    background-color: tomato;
+    color: white;
+}
+#save{
+    width: 150px;
+    height: 30px;
+    margin: 20px;
+    border: 25px;
+    background: #3F7C85;
+    color: white;
+    transition: 0.5s;
+}
+#save:active{
+    border-radius: 25px;
+    background: white;
+    color: #3F7C85;
+}
+#save:hover{
+    border-radius: 25px;
+    background: white;
+    color: #3F7C85;
+}
+input[type="text"]{
+    height: 25px;
+    width: 200px;
+    border: none;
+    background-color: rgb(219, 210, 210);
+}
+select{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(219, 210, 210);
+    border: none;
+}
+input[type="text"]:focus{
+    border: none;
+    background: white;
+    border-radius: 5px;
+}
+select:focus{
+    border: none;
+    background: white;
+    border-radius: 5px;
+}
+html{
+    user-select: none;
+}
